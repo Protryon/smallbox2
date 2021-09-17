@@ -1,0 +1,17 @@
+[package]
+name = "smallbox2"
+version = "0.1.0"
+authors = ["Protryon <max.bruce12@gmail.com>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/Protryon/smallbox2"
+description = "Smallbox2 is a stack-preferred Box alternative"
+keywords = ["box", "dst", "smallbox", "smallvec"]
+
+[dependencies]
+
+
+[features]
+std = []
+global_alloc_fill = []
+default = ["std"]
